@@ -54,7 +54,7 @@ export default function Greeting() {
             ) : (
               <img
                 alt="profile"
-                src={require("../../assets/images/profile.png")}
+                src={require("../../assets/images/profile.png").default}
               ></img>
             )}
           </div>
