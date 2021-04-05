@@ -5,7 +5,7 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
@@ -354,11 +354,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("언제든 연락주세요!"),
+  title: "ContactInfo",
   subtitle:
     "프로젝트 관련 및 기타 조언 및 충고 언제나 환영합니다!",
   number: "+82-10-3517-1741",
-  email_address: "4802852@gmail.com"
+  email_address: "4802852@gmail.com",
 };
 
 // Twitter Section
